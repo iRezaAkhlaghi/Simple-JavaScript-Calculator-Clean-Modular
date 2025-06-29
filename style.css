@@ -1,0 +1,64 @@
+*و*::before,*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+  }
+  .calculator {
+    background: #222;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  .display {
+    background: #111;
+    color: #0f0;
+    font-size: 2em;
+    text-align: right;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  .button {
+    background: #333;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .button:hover {
+    background: #444;
+  }
+  .button.orange {
+    background: orange;
+    color: white;
+    font-weight: 600;
+  }
+  .button.gray {
+    background: #999;
+    color: #000;
+    font-weight: 600;
+  }
+  .span-2 {
+    grid-column: span 2;
+  }

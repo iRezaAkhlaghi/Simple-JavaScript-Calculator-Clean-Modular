@@ -36,6 +36,8 @@ calculator/
 ```bash
 git clone https://github.com/iRezaAkhlaghi/Simple-JavaScript-Calculator-Clean-Modular.git
 
+
+
 2. Open `index.html` in your browser.
 3. Start clicking and calculating!
 

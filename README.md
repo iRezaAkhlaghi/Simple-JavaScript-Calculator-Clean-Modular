@@ -34,8 +34,7 @@ calculator/
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/هRezaAkhlaghi/calculator.git
-```
+git clone https://github.com/iRezaAkhlaghi/Simple-JavaScript-Calculator-Clean-Modular.git
 
 2. Open `index.html` in your browser.
 3. Start clicking and calculating!
